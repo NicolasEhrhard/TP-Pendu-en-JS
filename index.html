@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>TP Pendu</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="index.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<form id="formPendu" align="center">
+    <input id="inp" style="width: 30%" type="text" placeholder="Lettre" required maxlength="1">
+    <button type="submit">Tester la lettre !</button>
+</form>
+
+<h4 id="tentatives" style="float: right"></h4>
+
+<div align="center" style="display: flex" id="wordContainer"></div>
+
+
+<div>
+    <img id="image" height="361" width="450"/></div>
+</body>
+
+<script src="dictionnary.js"></script>
+<script src="partie.js"></script>
+<script src="lettre.js"></script>
+<script src="index.js"></script>
